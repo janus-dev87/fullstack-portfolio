@@ -2,6 +2,7 @@ import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
 import adobeaudition from '/public/svg/skills/adobeaudition.svg';
 import afterEffects from '/public/svg/skills/after-effects.svg';
 import angular from '/public/svg/skills/angular.svg';
+import android from '/public/svg/skills/android.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
 import blender from '/public/svg/skills/blender.svg';
@@ -31,6 +32,7 @@ import haxe from '/public/svg/skills/haxe.svg';
 import html from '/public/svg/skills/html.svg';
 import illustrator from '/public/svg/skills/illustrator.svg';
 import ionic from '/public/svg/skills/ionic.svg';
+import ios from '/public/svg/skills/ios.svg';
 import java from '/public/svg/skills/java.svg';
 import javascript from '/public/svg/skills/javascript.svg';
 import julia from '/public/svg/skills/julia.svg';
@@ -91,6 +93,10 @@ export const skillsImage = (skill) => {
       return adobeXd;
     case 'after effects':
       return afterEffects;
+    case 'android': 
+      return android;
+    case 'ios':
+      return ios;
     case 'css':
       return css;
     case 'angular':

@@ -43,6 +43,7 @@ function Education() {
 
           <div>
             <div className="flex flex-col gap-6">
+            <br/><br/><br/><br/><br/>
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>

@@ -6,20 +6,20 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'SmartChat',
+        description: "Developed a conversational AI chatbot for a healthcare company, allowing patients to interact with a virtual assistant for appointment scheduling, medication reminders, and symptom checking. Integrated Langchain and ChatGPT to enable natural language processing and understanding. Built a React Native mobile app for a seamless user experience. Result: 30% increase in patient engagement and 25% reduction in support queries.",
+        tools: ['React Native', 'Node.js', 'OpenAI API', 'Langchain', 'Natural Language Processing (NLP)', 'ChatGPT'],
+        role: 'Lead Full Stack Developer',
         code: '',
         demo: '',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'EcomPlus',
+        description: 'Built a scalable e-commerce platform for a retail company, featuring a machine learning-based recommendation system. Utilized Next.js for the frontend and Django for the backend, with Python and TensorFlow for machine learning model development. Implemented a real-time inventory management system and integrated payment gateways. Result: 25% increase in sales and 30% reduction in inventory costs.',
+        tools: ['NextJS', 'Tailwind CSS', "Django", "Python", "Machine Learning", "MySQL", "AWS S3", "TensorFlow", "Gmail Passkey"],
+        role: 'Senior Full Stack Developer',
         code: '',
         demo: '',
         image: travel,
@@ -36,27 +36,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'MedMinder',
+        description: "Developed a cross-platform mobile app for medication reminders and tracking, using Flutter and FlutterFlow. Designed a user-friendly interface and integrated with Bubble.io for no-code development. Built a backend using Node.js and MongoDB for data storage and analytics. Result: 4.5-star rating on the app store and 20% increase in user engagement.",
+        tools: ['Flutter', 'FlutterFlow', 'iOS', 'Android', 'React', 'Redux', 'Bubble.io'],
         code: '',
         demo: '',
         image: ayla,
-        role: 'Full Stack Developer',
+        role: 'Lead Mobile App Developer',
     }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
